@@ -1,0 +1,33 @@
+# AEGIS — Android App
+
+**Download the AEGIS Android app.** Package: `net.cozanet.aegis`. Built from
+[CozanetHQ/aegis-ui-v2](https://github.com/CozanetHQ/aegis-ui-v2) (the same
+codebase that serves [aegis.cozanet.net](https://aegis.cozanet.net)),
+packaged with Capacitor.
+
+## Download
+
+| Release | APK | Signed | Min Android |
+|---|---|---|---|
+| v1.0.0 | [Aegis-1.0-debug.apk](../../releases) | Debug | Android 5.0+ (API 21) |
+
+Get it from the **[Releases](../../releases)** page → latest release →
+`Aegis-1.0-debug.apk`.
+
+### Install
+1. Download the APK on your Android phone.
+2. Tap the file (or open it from Downloads).
+3. Allow "install from this source" if prompted.
+4. Sign in with Google — the app talks to the same live production backend
+   (aegis.cozanet.net) as the web app.
+
+## What's in the app
+- Google sign-in (native OS account picker, no embedded-WebView login)
+- Wallet, balances, and token swap (BSC)
+- Cozanet AI assistant
+- The full AEGIS web feature set — it is the same app, packaged for Android.
+
+## Notes
+- This build is the **debug-signed** APK. The Google Play listing (when live)
+  will use the release-signed AAB from [CozanetHQ/aegis-ui-v2](https://github.com/CozanetHQ/aegis-ui-v2)'s CI.
+- App updates: watch this repo's Releases.
